@@ -18,9 +18,6 @@ public class TestController {
     @ResponseBody
     @RequestMapping("/list")
     public Object list(){
-        System.out.println("随便改12222211111111111111111");
-        System.out.println("2222222");
         return "hello";
-
     }
 }
