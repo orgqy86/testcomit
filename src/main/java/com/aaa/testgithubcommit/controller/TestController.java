@@ -18,6 +18,8 @@ public class TestController {
     @ResponseBody
     @RequestMapping("/list")
     public Object list(){
+        System.out.println("随便改");
         return "hello";
+
     }
 }
